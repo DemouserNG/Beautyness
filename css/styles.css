@@ -18,6 +18,21 @@ html {
 *::after {
     box-sizing: inherit;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 
 body {
     color: var(--primery-text-color, black);
@@ -116,6 +131,12 @@ body {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    max-width: 696px;
+    padding-top: 200px;
+
+    
+
+
     color: var(--hero-title-color, white);
     font-size: 44px;
     font-weight: 900;
@@ -132,6 +153,7 @@ body {
     border: 1px solid transparent;
     padding: 10px 32px;
     text-align: center;
+    margin-bottom: 200px;
 
 
     color: #FFFFFF;
@@ -156,6 +178,7 @@ body {
 
 .specifics-title {
     margin-top: 0;
+    padding-top: 94px;
     margin-bottom: 10px;
 
 
@@ -170,6 +193,8 @@ body {
 .specifics-text {
     margin-top: 0;
     margin-bottom: 0;
+    max-width: 240px;
+    
     padding-bottom: 119px;
 
 
@@ -291,6 +316,8 @@ ul {
     min-width: 73px;
     border-radius: 4px;
     border: 1px solid transparent;
+    padding: 6px 22px;
+    text-align: center;
 
 
 

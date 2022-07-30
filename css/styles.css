@@ -166,17 +166,15 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/шапкаpng.jpg);
+  background-color: gray;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+  url(../images/шапкаjpg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   
-  
 }
-.hero-pnj {
-    
 
-}
 .hero-title {
     max-width: 696px;
     margin: auto;

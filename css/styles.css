@@ -102,9 +102,7 @@ body {
     column-gap: 50px;
 }
 
-/* .header-items:not(:last-child) {
-    margin-right: 50px;
-} */
+
 .header-nav .link {
     padding: 10px;
     
@@ -134,6 +132,16 @@ body {
     display: flex;
     margin-left: auto;
     column-gap: 50px;
+}
+
+.auth-nav.link::before {
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../images/конвертик.png);
+    background-size: contain;
+    
 }
 .auth-nav .link {
     padding: 10px;
@@ -220,6 +228,20 @@ body {
 .specifics-items {
     width: 270px;
 }
+.specifics-items::before {
+    content: '';
+    display: block;
+    height: 120px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.icon-convert::before {
+    background-image: url(../images/svg.антена.svg);
+
+}
+
 .specifics-title {
     margin-bottom: 10px;
 
@@ -240,7 +262,9 @@ body {
 }
 
 /* work-section */
-
+.work {
+    padding-top: 0;
+}
 
 .work-list {
     display: flex;
@@ -288,13 +312,51 @@ body {
     margin-right: 30px;
 } */
 .team-card {
-    background-color: var(--primery-bg-color, white);
+    background-color: aquamarine;
     border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
     max-width: 270px;
     text-align: center;
 }
+/* .icon-facebook {
+    width: 20px;
+    height: 20px;
+    content: '';
+
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-color: #212121;
+    
+    
+}
+.icon-facebook:hover {
+    background: var(--accent);
+}
+
+.icon-facebook:hover .letter {
+    fill: white;
+} */
+
+.actions {
+    display: flex;
+    padding: 0;
+    margin: 0%;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+}
+.icon {
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    
+}
+
+/* .icon:hover {
+    background-color: var(--accent);
+} */
 .team-name {
     min-width: 130px;
     margin-bottom: 10px;
@@ -308,6 +370,7 @@ body {
 }
 .team-text {
     min-width: 130px;
+    margin-bottom: 16px;
 
     color: var(--text-color, grey);
     line-height: 1.19;
@@ -335,7 +398,34 @@ body {
  .logo-second {
      color: #FFFFFF;
  }
+/* .icon {
+    content: '';
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        outline: 1px solid red;
+        
+        border-radius: 50%;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #757575;
+}
+.icon {
+    background-image: url(../images/пташка.svg);
 
+}  
+
+.icon:hover {
+    background-color: var(--accent);
+    cursor: pointer;
+} */
+.footer-items::before {
+    
+}
+.footer-items:hover {
+    background-color: var(--accent);
+}
 .footer-logo {
     display: block;
     margin-bottom: 20px;
@@ -357,9 +447,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 9px;
-}
-.footer-address {
-    width: 231px;
 }
 
 

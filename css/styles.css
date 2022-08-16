@@ -646,7 +646,31 @@ margin-left: 93px;
     visibility: hidden;
     pointer-events: none;
 }
-
+/*---------------- form------ */
+.modal-form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.modal-form-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.modal-form-btn {
+    padding: 10px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: var(--accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    
+}
 /* -------portfolio-------- */
 .header-nav .portfolio-link {
     color: var(--accent, blue);

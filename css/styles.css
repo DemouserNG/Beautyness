@@ -671,6 +671,20 @@ margin-left: 93px;
     border: transparent;
     
 }
+/* .form-input::placeholder {
+    color: rgba(255, 0, 0, 0.279);
+}
+.form-input:not(:focus):not(:placeholder-shown):valid {
+    background-color: rgba(0, 128, 0, 0.422);
+}
+.form-input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: #2f303a50;
+} */
+
+.modal-form {
+    padding: 40px;
+}
+.modal-title
 /* -------portfolio-------- */
 .header-nav .portfolio-link {
     color: var(--accent, blue);

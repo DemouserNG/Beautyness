@@ -1,7 +1,7 @@
 body {
-    color: var(--primery-text-color, black);
-    background-color: var(--primery-bg-color, white);
-    font-family: 'Roboto', sans-serif;
+    color: $color-text;
+    background-color: $color-background;
+    font-family: 'Manrope', sans-serif;
 
 }
 .list {
@@ -13,19 +13,18 @@ body {
 }
 img {
     display: block;
-    width: 100%;
+    // width: 100%;
     max-width: 100%;
     height: auto;
 }
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    @media screen and (min-width: 768px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
+button {
+    cursor: pointer;
 }
- @media screen and (min-width: 1200px) {
-     padding-top: 94px;
-     padding-bottom: 94px;
- }
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+section:nth-child(2n + 1) {
+    background-color: $second-background-color;
 }

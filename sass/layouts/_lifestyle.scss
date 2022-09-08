@@ -1,0 +1,47 @@
+.lifestyle-list {
+    display: flex;
+    gap: 12px;
+}
+.lifestyle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background: #FFFFFF;
+    border: 2px solid #1E2C30;
+}
+.lifestyle-list-title {
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.264px;
+    max-width: 84px;
+}
+.lifestyle-pre-title {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: $color-pre-title;
+    margin-bottom: 4px;
+}
+.lifestyl-title {
+    font-family: 'Playfair Display';
+    font-size: 45px;
+    line-height: 1.3;
+    letter-spacing: 0.45px;
+    color: $color-title;
+    max-width: 519px;
+    margin-bottom: 19px;
+}
+.lifestyle-text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: $color-text;
+    max-width: 595px;
+    margin-bottom: 30px;
+}

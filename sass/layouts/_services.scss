@@ -1,0 +1,32 @@
+.services-list {
+    display: flex;
+    gap: 30px;
+}
+.services-item {
+    // width: 380px;
+width: calc((100% - 30px) / 3);
+}
+.services-card {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.services-title {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.312px;
+    color: $color-title;
+    margin-bottom: 13px;
+}
+.services-text {
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.36px;
+    color: $color-text;
+}
+.services-btn {
+    border: 2px solid #5C8692;
+    background-color: transparent;
+    padding: 19px 32px;
+}

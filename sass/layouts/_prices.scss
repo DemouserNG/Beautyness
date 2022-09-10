@@ -23,7 +23,6 @@
     margin-bottom: 70px;
     
 }
-
 .product-title {
     font-family: 'Playfair Display';
     font-weight: 400;
@@ -31,9 +30,7 @@
     line-height: 1.2;
     letter-spacing: 0.264px;
     text-transform: capitalize;
-    color: $color-title;
-    
-
+    color: $color-title;  
 }
 .product-from {
     font-family: 'Manrope';
@@ -80,12 +77,13 @@
    display: flex;
    border-bottom: 3px solid #141414;   
 }
-.prices .container {
+
+.prices-field {
     display: flex;
     align-items: center;
-   
 }
 .product {
     margin-left: 60px;
     align-items: center;
 }
+

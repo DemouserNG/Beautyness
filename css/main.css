@@ -38,8 +38,8 @@ button {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 section:nth-child(2n+1) {
@@ -193,6 +193,7 @@ section:nth-child(2n+1) {
 .hero-title {
   max-width: 396px;
   font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 55px;
   line-height: 1.3;
@@ -308,6 +309,7 @@ section:nth-child(2n+1) {
 
 .lifestyle-list-title {
   font-family: "Playfair Display";
+  font-weight: 400;
   font-size: 22px;
   line-height: 1.2;
   text-align: center;
@@ -326,6 +328,7 @@ section:nth-child(2n+1) {
 
 .lifestyl-title {
   font-family: "Playfair Display";
+  font-weight: 400;
   font-size: 45px;
   line-height: 1.3;
   letter-spacing: 0.45px;
@@ -359,4 +362,107 @@ section:nth-child(2n+1) {
   position: absolute;
   top: -35px;
   left: 35px;
+}
+
+.prices-pre-title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #5C8692;
+  margin-bottom: 5px;
+}
+
+.prices-title {
+  max-width: 580px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.45px;
+  color: #141414;
+  margin-bottom: 70px;
+}
+
+.product-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.264px;
+  text-transform: capitalize;
+  color: #141414;
+}
+
+.product-from {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555555;
+  margin-left: auto;
+}
+
+.product-prices {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.57;
+  color: #141414;
+  margin-left: 10px;
+}
+
+.product-text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  color: #555555;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #5C8692;
+  margin-bottom: 22px;
+}
+
+.prices-btn {
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  border: 2px solid #5C8692;
+  color: #555555;
+  background-color: transparent;
+  padding: 19px 32px;
+}
+
+.product-list-item {
+  width: 540px;
+}
+
+.product-list-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 3px solid #141414;
+}
+
+.prices .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product {
+  margin-left: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=main.css.map */

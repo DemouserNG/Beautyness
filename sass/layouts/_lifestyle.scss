@@ -8,8 +8,7 @@
     align-items: center;
     justify-content: center;
     width: 188px;
-    padding-top: 23px;
-    padding-bottom: 23px;
+    height: 184px;
     background: #FFFFFF;
     border: 2px solid #1E2C30;
 }
@@ -44,4 +43,19 @@
     color: $color-text;
     max-width: 595px;
     margin-bottom: 30px;
+}
+
+.lifestyle .container {
+    display: flex;
+       
+}
+.lifestyle-img {
+    margin-left: 77px;
+    position: relative;
+    filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+}
+.lifestyle-img-two {
+    position: absolute;
+    top: -35px;
+    left: 35px;
 }

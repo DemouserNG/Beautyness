@@ -18,10 +18,13 @@
     color: $color-title;
     margin-bottom: 40px;
 }
+.testimonials-list {
+    display: flex;
+    gap: 20px;
+}
 .testimonials-list-item {
     width: 600px;
     background-color: white;
-    // padding: 33px 30px;
 }
 .testimonials-list-text {
     font-size: 19px;
@@ -33,4 +36,32 @@
     width: 100%;
     height: 123px;
     background-color:#1E2C30;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+.testimonials-card-title {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+.testimonials-card-text {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+// .testimonials-card-wrap {
+//     margin-left: 20px;
+// }
+.testimonials-card-field {
+    display: flex;
+
+    
+}
+// .icon-commas {
+//     margin-left: auto;
+// }

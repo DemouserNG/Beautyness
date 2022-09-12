@@ -180,13 +180,25 @@ section:nth-child(2n+1) {
   padding-bottom: 120px;
 }
 
+.pre-title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-icon-pre-title {
+  margin-right: 7px;
+}
+
 .hero-pre-title {
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #5C8692;
-  margin-bottom: 5px;
 }
 
 .hero-title {
@@ -224,6 +236,9 @@ section:nth-child(2n+1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero-img-wrap {
@@ -360,7 +375,7 @@ section:nth-child(2n+1) {
 .lifestyle-img-two {
   position: absolute;
   top: -35px;
-  left: 35px;
+  right: -35px;
 }
 
 .prices-pre-title {
@@ -424,7 +439,7 @@ section:nth-child(2n+1) {
   color: #555555;
   padding-bottom: 16px;
   border-bottom: 2px solid #5C8692;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 
 .prices-btn {
@@ -437,11 +452,14 @@ section:nth-child(2n+1) {
   color: #555555;
   background-color: transparent;
   padding: 19px 32px;
-  margin-bottom: 53px;
 }
 
 .product-list-item {
   width: 540px;
+}
+
+.product-list {
+  margin-bottom: 22px;
 }
 
 .product-list-wrap {
@@ -449,6 +467,7 @@ section:nth-child(2n+1) {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 3px solid #141414;
+  margin-bottom: 7px;
 }
 
 .prices-field {
@@ -462,7 +481,17 @@ section:nth-child(2n+1) {
 }
 
 .product-list-two {
-  padding-top: 100px;
+  margin-bottom: 22px;
+}
+
+.prices-field-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .prices .container {
@@ -473,8 +502,8 @@ section:nth-child(2n+1) {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateY(18px);
-          transform: translateY(18px);
+  -webkit-transform: translateY(38px);
+          transform: translateY(38px);
 }
 
 .box2-wrap {
@@ -507,6 +536,13 @@ section:nth-child(2n+1) {
   margin-bottom: 40px;
 }
 
+.testimonials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
 .testimonials-list-item {
   width: 600px;
   background-color: white;
@@ -523,4 +559,29 @@ section:nth-child(2n+1) {
   width: 100%;
   height: 123px;
   background-color: #1E2C30;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.testimonials-card-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.testimonials-card-text {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.42px;
+  color: #FFFFFF;
+}
+
+.testimonials-card-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

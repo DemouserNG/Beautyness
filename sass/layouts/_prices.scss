@@ -30,7 +30,8 @@
     line-height: 1.2;
     letter-spacing: 0.264px;
     text-transform: capitalize;
-    color: $color-title;  
+    color: $color-title;
+
 }
 .product-from {
     font-family: 'Manrope';
@@ -55,8 +56,8 @@
     letter-spacing: 0.36px;
     color: $color-text;
     padding-bottom: 16px;
-    border-bottom: 2px solid #5C8692;
-    margin-bottom: 22px;
+    border-bottom: 2px solid #5C8692;  
+    margin-bottom: 10px;
 }
 .prices-btn {
     font-size: 13px;
@@ -68,15 +69,18 @@
     color: $color-text;
     background-color: transparent;
     padding: 19px 32px;
-    margin-bottom: 53px;
 }
 
 .product-list-item {
     width: 540px;
 }
+.product-list {
+   margin-bottom: 22px;
+}
 .product-list-wrap {
    display: flex;
-   border-bottom: 3px solid #141414;   
+   border-bottom: 3px solid #141414;
+   margin-bottom: 7px;   
 }
 
 .prices-field {
@@ -84,8 +88,15 @@
     align-items: center;
     gap: 60px;
 }
+
 .product-list-two {
-    padding-top: 100px;
+    margin-bottom: 22px;
+}
+
+.prices-field-two {
+    display: flex;
+    gap: 60px;
+    align-items: center;
 }
 .prices .container {
     position: relative;
@@ -94,13 +105,11 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translateY(18px);
+   transform: translateY(38px);
 }
 .box2-wrap {
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translateY(107px);
-    
-
 }

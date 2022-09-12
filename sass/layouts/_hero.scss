@@ -3,14 +3,19 @@
     padding-bottom: 120px;
 
 }
-
+.pre-title-wrap {
+    display: flex;
+    align-items: center;
+}
+.hero-icon-pre-title {
+    margin-right: 7px;
+}
 .hero-pre-title {
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: $color-pre-title;
-    margin-bottom: 5px;
 }
 .hero-title {
     max-width: 396px;
@@ -43,6 +48,7 @@
 }
 .hero .container {
     display: flex;
+    align-items: center;
 }
 .hero-img-wrap {
     position: relative;
